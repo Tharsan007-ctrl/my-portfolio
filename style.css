@@ -1,0 +1,20 @@
+/* Mobile Screens (Max Width: 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    header {
+        padding: 10px;
+    }
+    nav a {
+        display: block; /* Links ஒவ்வொன்றும் Separate Line-ல வரணும் */
+        padding: 5px;
+    }
+}
+
+/* Tablet Screens (Max Width: 1024px) */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
