@@ -18,3 +18,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     // Clear Form Fields
     document.getElementById("contactForm").reset();
 });
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
